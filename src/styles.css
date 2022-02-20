@@ -1,0 +1,13 @@
+body {
+  background-color: black;
+}
+h1 {
+  color: rgb(168, 164, 164);
+  font-family: "Big Shoulders Inline Text", cursive;
+  font-weight: 800;
+}
+h2 {
+  color: rgb(168, 164, 164);
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+}
