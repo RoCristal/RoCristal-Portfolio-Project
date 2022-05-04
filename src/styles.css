@@ -151,3 +151,7 @@ a {
 a:hover {
   color: var(--light-color-hover);
 }
+
+.certificateDescription{
+  color: var(--light-color);
+}
