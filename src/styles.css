@@ -1,6 +1,6 @@
 :root {
-  --light-color: #776b72;
-  --light-color-hover: #b9aeb4;
+  --light-color: #a0929a;
+  --light-color-hover: #d1c8cd;
   --font-family1: "Big Shoulders Inline Text", cursive;
   --font-family2: "Nunito", sans-serif;
   --font-size-m: 40px;
@@ -147,6 +147,7 @@ contact-icons {
 }
 a {
   color: var(--light-color);
+  text-decoration: none;
 }
 a:hover {
   color: var(--light-color-hover);
@@ -154,4 +155,8 @@ a:hover {
 
 .certificateDescription{
   color: var(--light-color);
+}
+
+.linktr{
+  font-size: larger;
 }
