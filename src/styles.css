@@ -160,3 +160,7 @@ a:hover {
 .linktr{
   font-size: larger;
 }
+
+.personalLinks{
+  text-decoration: underline;
+}
