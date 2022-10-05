@@ -1,6 +1,6 @@
 :root {
-  --light-color: #BB597C;
-  --light-color-hover: #6EB3B2;
+  --light-color: #7e8c92;
+  --light-color-hover: #c7b198;
   --font-family1: "Big Shoulders Inline Text", cursive;
   --font-family2: "Nunito", sans-serif;
   --font-size-m: 40px;
@@ -8,19 +8,19 @@
   --font-size-s: 20px;
   --font-weight-m: 300;
   --font-weight-xl: 800;
-  --dark-color: #141719;
+  --dark-color: #293135;
 }
 
 Body {
   text-align: center;
-  background-color: #DCD8CC;
+  background-color: #e4e3e2;
   font-family: var(--font-family2);
   display: block;
   padding: 0%;
   line-height: 1.5;
 }
 .bg-light {
-  background-color: var(--light-color) !important;
+  background-color: #a1abaf !important;
   font-family: var(--font-family2);
   color: var(--dark-color);
   border-radius: 10px;
@@ -69,6 +69,7 @@ footer {
   background-color: transparent;
   border: 1px solid var(--light-color);
   margin-top: 20px;
+  padding: 10px;
 }
 
 .btn:hover {
@@ -86,14 +87,11 @@ footer {
 }
 .card {
   margin: 10px;
-  color: var(--light-color);
+  color: var(--dark-color);
   background-color: transparent;
-  border: 1px solid var(--light-color);
   padding-top: 5px;
 }
 .card-color-background {
-  background-color: var(--light-color);
-  color: var(--dark-color);
   font-weight: bold;
 }
 .card-link {
@@ -111,10 +109,7 @@ footer {
 }
 .card-header {
   padding: 2px;
-  border: 1px solid var(--light-color);
-}
-.card-header:first-child {
-  border-radius: calc(0.25rem - 1px);
+  color: var(--dark-color);
 }
 
 .links {
