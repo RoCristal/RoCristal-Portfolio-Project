@@ -98,6 +98,7 @@ footer {
   color: var(--dark-color);
   background-color: transparent;
   padding-top: 5px;
+  max-height:fit-content;
 }
 .card-color-background {
   font-weight: bold;
