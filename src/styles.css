@@ -89,7 +89,10 @@ footer {
   outline: 0px;
   box-shadow: transparent color var(--light-color);
 }
-
+.figmaInstrctions{
+  font-size: 12px;
+  color: var(--light-color);
+}
 .text-hide:visited {
   color: transparent;
 }
